@@ -1,0 +1,127 @@
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.bg-black{
+    background-color: #000;
+}
+.header .custom-nav .custom-nav-link{
+    padding: 32px 24px;
+}
+#intro{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#intro .grayscale{
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 100px;
+    letter-spacing: 15px;
+}
+#intro .intro-text{
+    font-size: 22px;
+    width: 60%;
+}
+#intro .my-btn{
+    background-color: #64a19d;
+    border-style: none;
+    padding: 20px 30px;
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: #fff;
+}
+#about{
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    padding-top: 120px;
+}
+#about p{
+    font-size: 18px;
+    margin-bottom: 90px;
+}
+#about a{
+    color: #64a19d;
+}
+#subcribe{
+    padding: 10rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url(../image/bg-signup.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+#subcribe .content svg{
+    width: 30px;
+}
+#subcribe .type-email input{
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%) !important;
+    padding: 1.25rem 2rem;
+    height: auto;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
+}
+#subcribe .type-email .btn-submit button{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    background-color: #64a19d;
+    border-color: #64a19d;
+}
+#contact{
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#contact .col-lg-4 svg{
+    width: 25px;
+    height: 25px;
+}
+
+#contact .my-card{
+    border-radius: 5px;
+    height: 200px;
+}
+#contact .my-card h4{
+    font-size: 0.8rem;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+}
+
+#contact .my-card hr{
+width: 50px;
+}
+
+footer{
+    background-color: black;
+}
+.social .icons a{
+padding: 30px;
+}
+.social .icons i{
+    transform: scale(3);
+    filter: grayscale(1);
+}
+.social .copyright{
+    padding: 80px;
+}
+
+@media screen and (max-width:700px){
+    #intro .grayscale{
+        font-size: 40px;
+    }
+    #subcribe .type-email .btn-submit button{
+        font-size: 7px;
+    }
+
+    #contact .col-4{
+        width: 100%;
+    }
+}
